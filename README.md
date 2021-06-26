@@ -11,7 +11,7 @@ A convolutional layer cross-correlates the input and kernel and adds a scalar bi
 We first construct a convolutional layer and initialize its kernel as a random tensor. Next, in each iteration, we will use the squared error to compare Y with the output of the convolutional layer. We can then calculate the gradient to update the kernel. For the sake of simplicity, in the following we use the built-in class for two-dimensional convolutional layers and ignore the bias. <br>
 
 #### e. Cross-Correlation and Convolution <br>
-Assuming that other conditions remain unchanged, when this layer performs strict convolution instead, the learned kernel K will be the same as K after K is flipped both horizontally and vertically. That is to say, when the convolutional layer performs strict convolution for the input in Fig. 6.2.1 and K the same output.Cross-correlation of the input and K will be obtained.
+Assuming that other conditions remain unchanged, when this layer performs strict convolution instead, the learned kernel K will be the same as K after K is flipped both horizontally and vertically. That is to say, when the convolutional layer performs strict convolution for the input and K the same output.Cross-correlation of the input and K will be obtained.
 
 #### f. Feature Map and Receptive Field <br>
 ## Summary <br>
