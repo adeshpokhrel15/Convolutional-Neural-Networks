@@ -20,5 +20,9 @@ Assuming that other conditions remain unchanged, when this layer performs strict
 <li> We can learn the kernelʼs parameters from data.
 <li> With kernels learned from data, the outputs of convolutional layers remain unaffected regardless of such layersʼ performed operations (either strict convolution or crosscorrelation).
 <li> When any element in a feature map needs a larger receptive field to detect broader features on the input, a deeper network can be considered.
+ 
+ ### 3. Padding and Stride <br>
+ Padding can increase the height and width of the output. This is often used to give the output the same height and width as the input. The stride can reduce the resolution of the output, for example reducing the height and width of the output to only 1/n of the height and width of the input (n is an integer greater than 1).Padding and stride can be used to adjust the dimensionality of the data effectively
+ 
 
 
