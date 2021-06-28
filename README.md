@@ -24,5 +24,7 @@ Assuming that other conditions remain unchanged, when this layer performs strict
  ### 3. Padding and Stride <br>
  Padding can increase the height and width of the output. This is often used to give the output the same height and width as the input. The stride can reduce the resolution of the output, for example reducing the height and width of the output to only 1/n of the height and width of the input (n is an integer greater than 1).Padding and stride can be used to adjust the dimensionality of the data effectively
  
+### 4. Multiple Input and Multiple Output Channels
+ 
 
 
