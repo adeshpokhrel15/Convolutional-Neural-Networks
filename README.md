@@ -24,7 +24,8 @@ Assuming that other conditions remain unchanged, when this layer performs strict
  ### 3. Padding and Stride <br>
  Padding can increase the height and width of the output. This is often used to give the output the same height and width as the input. The stride can reduce the resolution of the output, for example reducing the height and width of the output to only 1/n of the height and width of the input (n is an integer greater than 1).Padding and stride can be used to adjust the dimensionality of the data effectively
  
-### 4. Multiple Input and Multiple Output Channels
+### 4. Multiple Input and Multiple Output Channels <br>
+Multiple channels can be used to extend the model parameters of the convolutional layer. The 1 × 1 convolutional layer is equivalent to the fully-connected layer, when applied on a per pixel basis. The 1 × 1 convolutional layer is typically used to adjust the number of channels between network layers and to control model complexity.
  
 
 
