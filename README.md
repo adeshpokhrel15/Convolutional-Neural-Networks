@@ -27,5 +27,11 @@ Assuming that other conditions remain unchanged, when this layer performs strict
 ### 4. Multiple Input and Multiple Output Channels <br>
 Multiple channels can be used to extend the model parameters of the convolutional layer. The 1 × 1 convolutional layer is equivalent to the fully-connected layer, when applied on a per pixel basis. The 1 × 1 convolutional layer is typically used to adjust the number of channels between network layers and to control model complexity.
  
+### 5. Poling <br>
+Taking the input elements in the pooling window, the maximum pooling operation assigns
+the maximum value as the output and the average pooling operation assigns the average
+value as the output. One of the major benefits of a pooling layer is to alleviate the excessive sensitivity of the
+convolutional layer to location. We can specify the padding and stride for the pooling layer. Maximum pooling, combined with a stride larger than 1 can be used to reduce the spatial dimensions (e.g., width and height). The pooling layerʼs number of output channels is the same as the number of input channels.
+ 
 
 
