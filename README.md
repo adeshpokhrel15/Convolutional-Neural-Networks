@@ -32,6 +32,7 @@ Taking the input elements in the pooling window, the maximum pooling operation a
 the maximum value as the output and the average pooling operation assigns the average
 value as the output. One of the major benefits of a pooling layer is to alleviate the excessive sensitivity of the
 convolutional layer to location. We can specify the padding and stride for the pooling layer. Maximum pooling, combined with a stride larger than 1 can be used to reduce the spatial dimensions (e.g., width and height). The pooling layerʼs number of output channels is the same as the number of input channels.
- 
+
+### 6. LeNet <br> 
 
 
