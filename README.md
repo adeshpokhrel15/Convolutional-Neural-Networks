@@ -34,5 +34,14 @@ value as the output. One of the major benefits of a pooling layer is to alleviat
 convolutional layer to location. We can specify the padding and stride for the pooling layer. Maximum pooling, combined with a stride larger than 1 can be used to reduce the spatial dimensions (e.g., width and height). The pooling layerʼs number of output channels is the same as the number of input channels.
 
 ### 6. LeNet <br> 
+LeNet, among the first published CNNs to capture wide attention
+for its performance on computer vision tasks.. LeNet was eventually adapted to recognize digits for processing deposits in ATM machines. <br>
+Two parts: <br> (i) a convolutional encoder consisting of
+two convolutional layers; and <br>
+ (ii) a dense block consisting of three fully-connected layers; <br>
+ LeNetʼs dense
+block has three fully-connected layers, with 120, 84, and 10 outputs, respectively. Because we
+are still performing classification, the 10-dimensional output layer corresponds to the number of
+possible output classes.
 
 
