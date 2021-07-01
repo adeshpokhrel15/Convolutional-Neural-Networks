@@ -39,9 +39,9 @@ for its performance on computer vision tasks.. LeNet was eventually adapted to r
 Two parts: <br> (i) a convolutional encoder consisting of
 two convolutional layers; and <br>
  (ii) a dense block consisting of three fully-connected layers; <br>
- LeNetʼs dense
-block has three fully-connected layers, with 120, 84, and 10 outputs, respectively. Because we
-are still performing classification, the 10-dimensional output layer corresponds to the number of
-possible output classes.
+ LeNetʼs dense block has three fully-connected layers, with 120, 84, and 10 outputs, respectively. Because we are still performing classification, the 10-dimensional output layer corresponds to the number of possible output classes.
+
+### 7. AlexNet <br>
+
 
 
