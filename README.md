@@ -42,6 +42,7 @@ two convolutional layers; and <br>
  LeNetʼs dense block has three fully-connected layers, with 120, 84, and 10 outputs, respectively. Because we are still performing classification, the 10-dimensional output layer corresponds to the number of possible output classes.
 
 ### 7. AlexNet <br>
+The first large-scale network deployed to beat conventional computer vision methods on a large-scale vision challenge.
 
 
 
