@@ -44,7 +44,17 @@ two convolutional layers; and <br>
 ### 7. AlexNet <br>
 The first large-scale network deployed to beat conventional computer vision methods on a large-scale vision challenge.Objects in ImageNet data tend to occupy more pixels. Consequently, a larger convolution window is needed to capture the object.AlexNet changed the sigmoid activation function to a simpler ReLU activation function.AlexNet controls the model complexity of the fully-connected layer by dropout.To augment the data even further, the training loop of AlexNet added a great deal of image augmentation, such as flipping, clipping, and color changes.
 
-### Networks Using Blocks (VGG)
+### 8. Networks Using Blocks (VGG) <br>
+ The basic building block of classic CNNs is a sequence of the following: <br> 
+ (i) a convolutional layer with padding to maintain the resolution <br> 
+ (ii) a nonlinearity such as a ReLU <br> 
+ (iii) a pooling layer such as a maximum pooling layer <br> 
+ VGG-11 constructs a network using reusable convolutional blocks. Different VGG models can
+be defined by the differences in the number of convolutional layers and output channels in
+each block.  The use of blocks leads to very compact representations of the network definition. It allows
+for efficient design of complex networks.  In their VGG paper, Simonyan and Ziserman experimented with various architectures. In
+particular, they found that several layers of deep and narrow convolutions (i.e., 3 × 3) were
+more effective than fewer layers of wider convolutions
 
 
 
