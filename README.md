@@ -44,5 +44,7 @@ two convolutional layers; and <br>
 ### 7. AlexNet <br>
 The first large-scale network deployed to beat conventional computer vision methods on a large-scale vision challenge.Objects in ImageNet data tend to occupy more pixels. Consequently, a larger convolution window is needed to capture the object.AlexNet changed the sigmoid activation function to a simpler ReLU activation function.AlexNet controls the model complexity of the fully-connected layer by dropout.To augment the data even further, the training loop of AlexNet added a great deal of image augmentation, such as flipping, clipping, and color changes.
 
+### Networks Using Blocks (VGG)
+
 
 
