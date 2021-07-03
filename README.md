@@ -54,7 +54,9 @@ be defined by the differences in the number of convolutional layers and output c
 each block.  The use of blocks leads to very compact representations of the network definition. It allows
 for efficient design of complex networks.  In their VGG paper, Simonyan and Ziserman experimented with various architectures. In
 particular, they found that several layers of deep and narrow convolutions (i.e., 3 × 3) were
-more effective than fewer layers of wider convolutions
+more effective than fewer layers of wider convolutions.
+
+### 9.  Network in Network (NiN)
 
 
 
