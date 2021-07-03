@@ -56,7 +56,9 @@ for efficient design of complex networks.  In their VGG paper, Simonyan and Zise
 particular, they found that several layers of deep and narrow convolutions (i.e., 3 × 3) were
 more effective than fewer layers of wider convolutions.
 
-### 9.  Network in Network (NiN)
+### 9.  Network in Network (NiN) <br>
+NiN were proposed based on a very simple insight: to use an MLP on the channels for each pixel separately. The idea behind NiN is to apply a fully-connected layer at each pixel location (for each height and width).  Each NiN block is followed by a maximum pooling layer with a stride of 2 and a window shape of  3×3 .NiN uses an NiN block with a number of output channels equal to the number of label classes, followed by a global average pooling layer, yielding a vector of logits. One advantage of NiN’s design is that it significantly reduces the number of required model parameters. However, in practice, this design sometimes requires increased model training time. NiN uses blocks consisting of a convolutional layer and multiple  1×1  convolutional layers. This can be used within the convolutional stack to allow for more per-pixel nonlinearity.
+NiN removes the fully-connected layers and replaces them with global average pooling (i.e., summing over all locations) after reducing the number of channels to the desired number of outputs (e.g., 10 for Fashion-MNIST).Removing the fully-connected layers reduces overfitting. NiN has dramatically fewer parameters.The NiN design influenced many subsequent CNN designs.
 
 
 
