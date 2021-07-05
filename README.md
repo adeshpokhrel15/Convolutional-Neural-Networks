@@ -62,6 +62,8 @@ NiN removes the fully-connected layers and replaces them with global average poo
 
 ### 10. Networks with Parallel Concatenations (GoogLeNet) <br>
  Here the outputs along each path are concatenated along the channel dimension and comprise the block’s output. The commonly-tuned hyperparameters of the Inception block are the number of output channels per layer. The details at different extents can be recognized efficiently by filters of different sizes. At the same time, we can allocate different amounts of parameters for different filters.The GoogLeNet model is computationally complex, so it is not as easy to modify the number of channels as in VGG.The Inception block is equivalent to a subnetwork with four paths. It extracts information in parallel through convolutional layers of different window shapes and maximum pooling layers.  1×1  convolutions reduce channel dimensionality on a per-pixel level. Maximum pooling reduces the resolution. GoogLeNet connects multiple well-designed Inception blocks with other layers in series. The ratio of the number of channels assigned in the Inception block is obtained through a large number of experiments on the ImageNet dataset. GoogLeNet, as well as its succeeding versions, was one of the most efficient models on ImageNet, providing similar test accuracy with lower computational complexity.
+ 
+### 11. Batch Normalization <br>
 
 
 
